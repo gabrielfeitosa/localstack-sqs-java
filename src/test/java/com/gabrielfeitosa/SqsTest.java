@@ -1,6 +1,9 @@
+package com.gabrielfeitosa;
+
 import cloud.localstack.docker.LocalstackDocker;
 import cloud.localstack.docker.LocalstackDockerTestRunner;
 import cloud.localstack.docker.annotation.LocalstackDockerProperties;
+import com.gabrielfeitosa.Sqs;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import software.amazon.awssdk.services.sqs.model.CreateQueueResponse;
